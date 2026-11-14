@@ -1,0 +1,253 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "What does the opening sentence of the Manifesto declare is haunting Europe?",
+    "expected_answer": "A spectre — the spectre of communism.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 2,
+    "evidence_quote": "A spectre is haunting Europe — the spectre of communism.",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "According to Chapter I, what is the history of all hitherto existing society?",
+    "expected_answer": "The history of all hitherto existing society is the history of class struggles.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 3,
+    "evidence_quote": "The history of all hitherto existing society2 is the history of class struggles.",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "In what ways does the bourgeoisie expand its market presence across the globe?",
+    "expected_answer": "The need of a constantly expanding market chases the bourgeoisie over the entire surface of the globe, compelling it to nestle, settle, and establish connections everywhere.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 6,
+    "evidence_quote": "The need of a constantly expanding market for its products chases the bourgeoisie over the entire surface of the globe. It must nestle everywhere, settle everywhere, establish connexions everywhere.",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "conditional",
+    "question": "How does the bourgeoisie overcome commercial economic crises?",
+    "expected_answer": "By enforced destruction of a mass of productive forces, by the conquest of new markets, and by the more thorough exploitation of old ones.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 8,
+    "evidence_quote": "On the one hand by enforced destruction of a mass of productive forces; on the other, by the conquest of new markets, and by the more thorough exploitation of the old ones.",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "direct",
+    "question": "What organizations do workers initially form when resisting individual bourgeois employers?",
+    "expected_answer": "Combinations (Trades' Unions) against the bourgeois in order to keep up the rate of wages.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 10,
+    "evidence_quote": "Thereupon, the workers begin to form combinations (Trades’ Unions) against the bourgeois; they club together in order to keep up the rate of wages",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Which group of intellectuals joins the proletariat when the class struggle nears the decisive hour?",
+    "expected_answer": "A portion of bourgeois ideologists who have comprehended theoretically the historical movement as a whole.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 11,
+    "evidence_quote": "in particular, a portion of the bourgeois ideologists, who have raised themselves to the level of comprehending theoretically the historical movement as a whole.",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter I, what has been the historical role played by the bourgeoisie regarding feudal ties?",
+    "expected_answer": "The bourgeoisie has historically played a most revolutionary part and put an end to all feudal, patriarchal, idyllic relations.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 5,
+    "evidence_quote": "The bourgeoisie, historically, has played a most revolutionary part. The bourgeoisie, wherever it has got the upper hand, has put an end to all feudal, patriarchal, idyllic relations.",
+    "filter": {
+      "chapter": "Chapter I"
+    }
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "Do Communists form a separate party opposed to other working-class parties?",
+    "expected_answer": "No, Communists do not form a separate party opposed to other working-class parties and have no interests separate from the proletariat as a whole.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 13,
+    "evidence_quote": "The Communists do not form a separate party opposed to the other working-class parties. They have no interests separate and apart from those of the proletariat as a whole.",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "conditional",
+    "question": "What is the distinguishing feature of Communism regarding property abolition?",
+    "expected_answer": "Not the abolition of property generally, but the abolition of bourgeois private property.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 14,
+    "evidence_quote": "The distinguishing feature of Communism is not the abolition of property generally, but the abolition of bourgeois property.",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "direct",
+    "question": "How does the bourgeois traditionally view his wife according to the Manifesto?",
+    "expected_answer": "The bourgeois sees his wife as a mere instrument of production.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 18,
+    "evidence_quote": "The bourgeois sees his wife a mere instrument of production.",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter II, what is the first measure listed as generally applicable in the most advanced countries?",
+    "expected_answer": "Abolition of property in land and application of all rents of land to public purposes.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 21,
+    "evidence_quote": "1. Abolition of property in land and application of all rents of land to public purposes.",
+    "filter": {
+      "chapter": "Chapter II"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "conditional",
+    "question": "What are the second and third measures proposed for advanced countries in Chapter II?",
+    "expected_answer": "A heavy progressive or graduated income tax, and abolition of all rights of inheritance.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 21,
+    "evidence_quote": "2. A heavy progressive or graduated income tax. 3. Abolition of all rights of inheritance.",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the phrase that sums up the essence of Conservative or Bourgeois Socialism?",
+    "expected_answer": "The bourgeois is a bourgeois — for the benefit of the working class.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 28,
+    "evidence_quote": "It is summed up in the phrase: the bourgeois is a bourgeois — for the benefit of the working class.",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter III under socialist literature, what social experiments did the Utopian socialists dream of founding?",
+    "expected_answer": "Isolated phalansteres, Home Colonies, or setting up a Little Icaria.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 30,
+    "evidence_quote": "They still dream of experimental realisation of their social Utopias, of founding isolated “phalansteres”, of establishing “Home Colonies”, or setting up a “Little Icaria”8",
+    "filter": {
+      "chapter": "Chapter III"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What leading question do Communists bring to the front in every revolutionary movement?",
+    "expected_answer": "The property question, no matter what its degree of development at the time.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 32,
+    "evidence_quote": "In all these movements, they bring to the front, as the leading question in each, the property question, no matter what its degree of development at the time.",
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "type": "direct",
+    "question": "What famous concluding slogan ends Chapter IV of the Manifesto?",
+    "expected_answer": "Working Men of All Countries, Unite!",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 32,
+    "evidence_quote": "WORKING MEN OF ALL COUNTRIES, UNITE!",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Who commissioned Marx and Engels in London to draw up the Manifesto in November 1847?",
+    "expected_answer": "The Communist League, an international association of workers.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 33,
+    "evidence_quote": "The Communist League, an international association of workers, which could of course be only a secret one, under conditions obtaining at the time, commissioned us, the undersigned, at the Congress held in London in November 1847",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "direct",
+    "question": "Why did Marx and Engels decline to alter the Manifesto in the 1872 German Preface?",
+    "expected_answer": "Because the Manifesto had become an unalterable historical document.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 34,
+    "evidence_quote": "the Manifesto has become a historical document which we have no longer any right to alter.",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In the Appendix prefaces, what did the 1882 Russian Edition preface observe about peasant land ownership in Russia?",
+    "expected_answer": "More than half of the land was owned in common by the peasants.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 35,
+    "evidence_quote": "in Russia we find, face-to-face with the rapidly flowering capitalist swindle and bourgeois property, just beginning to develop, more than half the land owned in common by the peasants.",
+    "filter": {
+      "chapter": "Appendix"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "conditional",
+    "question": "Who signed the preface to the 1883 German edition alone after Karl Marx passed away?",
+    "expected_answer": "Frederick Engels signed it alone.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 35,
+    "evidence_quote": "The preface to the present edition I must, alas, sign alone. Marx, the man to whom the whole working class class of Europe and America owes more than to any one else",
+    "filter": null
+  },
+  {
+    "id": "q21",
+    "split": "test",
+    "type": "direct",
+    "question": "What single immediate aim was the proletariat reviewing fighting forces for on May Day in the 1890 Preface?",
+    "expected_answer": "The standard eight-hour working day established by legal enactment.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 42,
+    "evidence_quote": "under one flag, for one immediate aim: the standard eight-hour working day to be established by legal enactment, as proclaimed by the Geneva Congress of the International in 1866",
+    "filter": null
+  },
+  {
+    "id": "q22",
+    "split": "test",
+    "type": "conditional",
+    "question": "According to the 1893 Italian edition preface, what condition is necessary for the rule of the bourgeoisie in any country?",
+    "expected_answer": "National independence.",
+    "gold_source_id": "communist-manifesto-1848",
+    "gold_page": 44,
+    "evidence_quote": "But in any country the rule of the bourgeoisie is impossible without national independence Therefore, the Revolution of 1848 had to bring in its train the unity and autonomy of the nations",
+    "filter": null
+  }
+]
+

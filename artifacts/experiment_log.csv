@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"chapter,section,source,page",none,ollama/embeddinggemma(768d),Fixed window baseline,13/17,15/17,3/5,5/5,Coherence: 0.8/2 | Grounding: 1.6/2
+B,by_paragraph,1000,0,"chapter,section,source,page",none,ollama/embeddinggemma(768d),Paragraph-aware semantic coherence,12/17,14/17,3/5,4/5,Coherence: 2.0/2 | Grounding: 1.4/2
+C,by_paragraph,1000,0,"chapter,section,source,page","chapter,section",ollama/embeddinggemma(768d),Metadata filter boosts precision,12/17,14/17,3/5,4/5,Coherence: 2.0/2 | Grounding: 1.4/2

@@ -45,3 +45,34 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+---
+
+## Hướng dẫn tái lập (Quickstart & Reproducibility)
+
+### 1. Khởi động hạ tầng (Database & Embedding Model)
+```bash
+# 1. Khởi động PostgreSQL + pgvector local trên cổng 55433
+cd starter
+docker compose -p day6_student_starter up -d --wait
+
+# 2. Khởi động Ollama local và kéo model embedding
+ollama pull embeddinggemma
+```
+
+### 2. Thiết lập môi trường Python
+```bash
+cd starter
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### 3. Chạy Pipeline và Benchmark
+```bash
+# Đứng từ thư mục starter, chạy toàn bộ pipeline:
+python -m src.run
+```
+Kết quả trace và metrics sẽ được tự động lưu vào [results/](results/) và [artifacts/experiment_log.csv](artifacts/experiment_log.csv).
+Báo cáo cá nhân chi tiết xem tại: [report/individual/2A202603771_NguyenVanMinh.md](report/individual/2A202603771_NguyenVanMinh.md).
+
