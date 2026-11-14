@@ -1,0 +1,689 @@
+{
+  "coherence_audit": [
+    {
+      "page": 2,
+      "chapter": "Preamble",
+      "strategy_A_chunk_id": "communist-manifesto-1848_p0002_A_0000_286a41",
+      "strategy_A_score": 1,
+      "strategy_A_reason": "Bị cắt một đầu do giới hạn cứng 500 ký tự; hiểu được một phần.",
+      "strategy_A_snippet": "A spectre is haunting Europe — the spectre of communism. All the powers of old Europe\nhave entered i...",
+      "strategy_B_chunk_id": "communist-manifesto-1848_p0002_B_0000_c3e682",
+      "strategy_B_score": 2,
+      "strategy_B_reason": "Tôn trọng ranh giới đoạn văn tự nhiên (\\n\\n) và ngắt câu đầy đủ; giữ trọn ngữ cảnh.",
+      "strategy_B_snippet": "A spectre is haunting Europe — the spectre of communism. All the powers of old Europe\nhave entered i..."
+    },
+    {
+      "page": 3,
+      "chapter": "Chapter I",
+      "strategy_A_chunk_id": "communist-manifesto-1848_p0003_A_0000_f22e43",
+      "strategy_A_score": 1,
+      "strategy_A_reason": "Bị cắt một đầu do giới hạn cứng 500 ký tự; hiểu được một phần.",
+      "strategy_A_snippet": "Bourgeois and Proletarians1\n\nThe history of all hitherto existing society2 is the history of class s...",
+      "strategy_B_chunk_id": "communist-manifesto-1848_p0003_B_0000_2401ee",
+      "strategy_B_score": 2,
+      "strategy_B_reason": "Tôn trọng ranh giới đoạn văn tự nhiên (\\n\\n) và ngắt câu đầy đủ; giữ trọn ngữ cảnh.",
+      "strategy_B_snippet": "Bourgeois and Proletarians1\n\nThe history of all hitherto existing society2 is the history of class s..."
+    },
+    {
+      "page": 5,
+      "chapter": "Chapter I",
+      "strategy_A_chunk_id": "communist-manifesto-1848_p0005_A_0000_aacecf",
+      "strategy_A_score": 1,
+      "strategy_A_reason": "Bị cắt một đầu do giới hạn cứng 500 ký tự; hiểu được một phần.",
+      "strategy_A_snippet": "The bourgeoisie, historically, has played a most revolutionary part.\n\nThe bourgeoisie, wherever it h...",
+      "strategy_B_chunk_id": "communist-manifesto-1848_p0005_B_0000_db8857",
+      "strategy_B_score": 2,
+      "strategy_B_reason": "Tôn trọng ranh giới đoạn văn tự nhiên (\\n\\n) và ngắt câu đầy đủ; giữ trọn ngữ cảnh.",
+      "strategy_B_snippet": "The bourgeoisie, historically, has played a most revolutionary part.\n\nThe bourgeoisie, wherever it h..."
+    },
+    {
+      "page": 8,
+      "chapter": "Chapter I",
+      "strategy_A_chunk_id": "communist-manifesto-1848_p0008_A_0000_cf756c",
+      "strategy_A_score": 0,
+      "strategy_A_reason": "Bị cắt ngang giữa câu ở cả hai đầu do cơ chế sliding window 500 ký tự.",
+      "strategy_A_snippet": "does the bourgeoisie get over these crises? On the one hand by enforced destruction of a mass of\npro...",
+      "strategy_B_chunk_id": "communist-manifesto-1848_p0008_B_0000_62e71c",
+      "strategy_B_score": 2,
+      "strategy_B_reason": "Tôn trọng ranh giới đoạn văn tự nhiên (\\n\\n) và ngắt câu đầy đủ; giữ trọn ngữ cảnh.",
+      "strategy_B_snippet": "does the bourgeoisie get over these crises? On the one hand by enforced destruction of a mass of\npro..."
+    },
+    {
+      "page": 10,
+      "chapter": "Chapter I",
+      "strategy_A_chunk_id": "communist-manifesto-1848_p0010_A_0000_cf3558",
+      "strategy_A_score": 0,
+      "strategy_A_reason": "Bị cắt ngang giữa câu ở cả hai đầu do cơ chế sliding window 500 ký tự.",
+      "strategy_A_snippet": "fluctuating. The increasing improvement of machinery, ever more rapidly developing, makes\ntheir live...",
+      "strategy_B_chunk_id": "communist-manifesto-1848_p0010_B_0000_77dd9d",
+      "strategy_B_score": 2,
+      "strategy_B_reason": "Tôn trọng ranh giới đoạn văn tự nhiên (\\n\\n) và ngắt câu đầy đủ; giữ trọn ngữ cảnh.",
+      "strategy_B_snippet": "fluctuating. The increasing improvement of machinery, ever more rapidly developing, makes\ntheir live..."
+    },
+    {
+      "page": 14,
+      "chapter": "Chapter II",
+      "strategy_A_chunk_id": "communist-manifesto-1848_p0014_A_0000_b80532",
+      "strategy_A_score": 1,
+      "strategy_A_reason": "Bị cắt một đầu do giới hạn cứng 500 ký tự; hiểu được một phần.",
+      "strategy_A_snippet": "The French Revolution, for example, abolished feudal property in favour of bourgeois\nproperty.\n\nThe ...",
+      "strategy_B_chunk_id": "communist-manifesto-1848_p0014_B_0000_ad8734",
+      "strategy_B_score": 2,
+      "strategy_B_reason": "Tôn trọng ranh giới đoạn văn tự nhiên (\\n\\n) và ngắt câu đầy đủ; giữ trọn ngữ cảnh.",
+      "strategy_B_snippet": "The French Revolution, for example, abolished feudal property in favour of bourgeois\nproperty.\n\nThe ..."
+    },
+    {
+      "page": 18,
+      "chapter": "Chapter II",
+      "strategy_A_chunk_id": "communist-manifesto-1848_p0018_A_0000_588d06",
+      "strategy_A_score": 1,
+      "strategy_A_reason": "Bị cắt một đầu do giới hạn cứng 500 ký tự; hiểu được một phần.",
+      "strategy_A_snippet": "The bourgeois sees his wife a mere instrument of production. He hears that the instruments\nof produc...",
+      "strategy_B_chunk_id": "communist-manifesto-1848_p0018_B_0000_b83d8e",
+      "strategy_B_score": 2,
+      "strategy_B_reason": "Tôn trọng ranh giới đoạn văn tự nhiên (\\n\\n) và ngắt câu đầy đủ; giữ trọn ngữ cảnh.",
+      "strategy_B_snippet": "The bourgeois sees his wife a mere instrument of production. He hears that the instruments\nof produc..."
+    },
+    {
+      "page": 21,
+      "chapter": "Chapter II",
+      "strategy_A_chunk_id": "communist-manifesto-1848_p0021_A_0000_f6a1be",
+      "strategy_A_score": 1,
+      "strategy_A_reason": "Bị cắt một đầu do giới hạn cứng 500 ký tự; hiểu được một phần.",
+      "strategy_A_snippet": "Nevertheless, in most advanced countries, the following will be pretty generally\napplicable:\n\n1. Abo...",
+      "strategy_B_chunk_id": "communist-manifesto-1848_p0021_B_0000_52fa29",
+      "strategy_B_score": 2,
+      "strategy_B_reason": "Tôn trọng ranh giới đoạn văn tự nhiên (\\n\\n) và ngắt câu đầy đủ; giữ trọn ngữ cảnh.",
+      "strategy_B_snippet": "Nevertheless, in most advanced countries, the following will be pretty generally\napplicable:..."
+    },
+    {
+      "page": 28,
+      "chapter": "Chapter III",
+      "strategy_A_chunk_id": "communist-manifesto-1848_p0028_A_0000_027115",
+      "strategy_A_score": 1,
+      "strategy_A_reason": "Bị cắt một đầu do giới hạn cứng 500 ký tự; hiểu được một phần.",
+      "strategy_A_snippet": "Free trade: for the benefit of the working class. Protective duties: for the benefit of the\nworking ...",
+      "strategy_B_chunk_id": "communist-manifesto-1848_p0028_B_0000_ddd281",
+      "strategy_B_score": 2,
+      "strategy_B_reason": "Tôn trọng ranh giới đoạn văn tự nhiên (\\n\\n) và ngắt câu đầy đủ; giữ trọn ngữ cảnh.",
+      "strategy_B_snippet": "Free trade: for the benefit of the working class. Protective duties: for the benefit of the\nworking ..."
+    },
+    {
+      "page": 35,
+      "chapter": "Appendix",
+      "strategy_A_chunk_id": "communist-manifesto-1848_p0035_A_0000_0c439d",
+      "strategy_A_score": 1,
+      "strategy_A_reason": "Bị cắt một đầu do giới hạn cứng 500 ký tự; hiểu được một phần.",
+      "strategy_A_snippet": "The Communist Manifesto had, as its object, the proclamation of the inevitable impending\ndissolution...",
+      "strategy_B_chunk_id": "communist-manifesto-1848_p0035_B_0000_b0725d",
+      "strategy_B_score": 2,
+      "strategy_B_reason": "Tôn trọng ranh giới đoạn văn tự nhiên (\\n\\n) và ngắt câu đầy đủ; giữ trọn ngữ cảnh.",
+      "strategy_B_snippet": "The Communist Manifesto had, as its object, the proclamation of the inevitable impending\ndissolution..."
+    }
+  ],
+  "metadata_audit": [
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0038_A_0006_21cb12",
+      "has_required_fields": true,
+      "page": 38,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0033_A_0000_a4e37d",
+      "has_required_fields": true,
+      "page": 33,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0034_A_0000_29cf9b",
+      "has_required_fields": true,
+      "page": 34,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0038_B_0005_745803",
+      "has_required_fields": true,
+      "page": 38,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0038_B_0004_4e016d",
+      "has_required_fields": true,
+      "page": 38,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0034_B_0000_077a89",
+      "has_required_fields": true,
+      "page": 34,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0038_C_0005_6c73f0",
+      "has_required_fields": true,
+      "page": 38,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0038_C_0004_7deffb",
+      "has_required_fields": true,
+      "page": 38,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0034_C_0000_39437e",
+      "has_required_fields": true,
+      "page": 34,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0035_A_0000_0c439d",
+      "has_required_fields": true,
+      "page": 35,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0034_A_0000_29cf9b",
+      "has_required_fields": true,
+      "page": 34,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0034_A_0004_8b9d27",
+      "has_required_fields": true,
+      "page": 34,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0035_B_0000_b0725d",
+      "has_required_fields": true,
+      "page": 35,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0034_B_0000_077a89",
+      "has_required_fields": true,
+      "page": 34,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0033_B_0000_ec93f3",
+      "has_required_fields": true,
+      "page": 33,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0035_C_0000_22a4ca",
+      "has_required_fields": true,
+      "page": 35,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0034_C_0000_39437e",
+      "has_required_fields": true,
+      "page": 34,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0033_C_0000_144090",
+      "has_required_fields": true,
+      "page": 33,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0035_A_0002_2f0c30",
+      "has_required_fields": true,
+      "page": 35,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0039_A_0004_13d50f",
+      "has_required_fields": true,
+      "page": 39,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0036_A_0000_6985a8",
+      "has_required_fields": true,
+      "page": 36,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0035_B_0001_faf207",
+      "has_required_fields": true,
+      "page": 35,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0038_B_0005_745803",
+      "has_required_fields": true,
+      "page": 38,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0039_B_0002_1a05c3",
+      "has_required_fields": true,
+      "page": 39,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0035_C_0001_c1a1a1",
+      "has_required_fields": true,
+      "page": 35,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0038_C_0005_6c73f0",
+      "has_required_fields": true,
+      "page": 38,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0039_C_0002_704497",
+      "has_required_fields": true,
+      "page": 39,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q21",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0042_A_0000_1ce5c3",
+      "has_required_fields": true,
+      "page": 42,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q21",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0042_A_0001_34306b",
+      "has_required_fields": true,
+      "page": 42,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q21",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0031_A_0003_b9585b",
+      "has_required_fields": true,
+      "page": 31,
+      "chapter": "Chapter IV"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q21",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0042_B_0000_f0cd81",
+      "has_required_fields": true,
+      "page": 42,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q21",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0011_B_0003_ee7de0",
+      "has_required_fields": true,
+      "page": 11,
+      "chapter": "Chapter I"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q21",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0012_B_0000_57bbb6",
+      "has_required_fields": true,
+      "page": 12,
+      "chapter": "Chapter I"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q21",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0042_C_0000_2fc44e",
+      "has_required_fields": true,
+      "page": 42,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q21",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0011_C_0003_4f92db",
+      "has_required_fields": true,
+      "page": 11,
+      "chapter": "Chapter I"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q21",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0012_C_0000_82709b",
+      "has_required_fields": true,
+      "page": 12,
+      "chapter": "Chapter I"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q22",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0012_A_0004_3bf0a7",
+      "has_required_fields": true,
+      "page": 12,
+      "chapter": "Chapter I"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q22",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0044_A_0000_86f017",
+      "has_required_fields": true,
+      "page": 44,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q22",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0043_A_0003_6ccbcc",
+      "has_required_fields": true,
+      "page": 43,
+      "chapter": "Appendix"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q22",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0012_B_0003_78cb9c",
+      "has_required_fields": true,
+      "page": 12,
+      "chapter": "Chapter I"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q22",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0004_B_0002_d9e47b",
+      "has_required_fields": true,
+      "page": 4,
+      "chapter": "Chapter I"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q22",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0005_B_0002_f762ec",
+      "has_required_fields": true,
+      "page": 5,
+      "chapter": "Chapter I"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q22",
+      "rank": 1,
+      "chunk_id": "communist-manifesto-1848_p0012_C_0003_c7cb16",
+      "has_required_fields": true,
+      "page": 12,
+      "chapter": "Chapter I"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q22",
+      "rank": 2,
+      "chunk_id": "communist-manifesto-1848_p0004_C_0002_c51430",
+      "has_required_fields": true,
+      "page": 4,
+      "chapter": "Chapter I"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q22",
+      "rank": 3,
+      "chunk_id": "communist-manifesto-1848_p0005_C_0002_9c7689",
+      "has_required_fields": true,
+      "page": 5,
+      "chapter": "Chapter I"
+    }
+  ],
+  "grounding_audit": [
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "question": "Why did Marx and Engels decline to alter the Manifesto in the 1872 German Preface?",
+      "gold_page": 34,
+      "grounding_score": 1,
+      "grounding_reason": "Bằng chứng xuất hiện ở rank 2 hoặc 3, cần tổng hợp thêm ngữ cảnh.",
+      "filter_required": null,
+      "filter_compliant": "N/A"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "question": "Why did Marx and Engels decline to alter the Manifesto in the 1872 German Preface?",
+      "gold_page": 34,
+      "grounding_score": 1,
+      "grounding_reason": "Bằng chứng xuất hiện ở rank 2 hoặc 3, cần tổng hợp thêm ngữ cảnh.",
+      "filter_required": null,
+      "filter_compliant": "N/A"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "question": "Why did Marx and Engels decline to alter the Manifesto in the 1872 German Preface?",
+      "gold_page": 34,
+      "grounding_score": 1,
+      "grounding_reason": "Bằng chứng xuất hiện ở rank 2 hoặc 3, cần tổng hợp thêm ngữ cảnh.",
+      "filter_required": null,
+      "filter_compliant": "N/A"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "question": "In the Appendix prefaces, what did the 1882 Russian Edition preface observe about peasant land ownership in Russia?",
+      "gold_page": 35,
+      "grounding_score": 2,
+      "grounding_reason": "Top-1 chứa đầy đủ trọn vẹn bằng chứng và đúng trang nguồn.",
+      "filter_required": {
+        "chapter": "Appendix"
+      },
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "question": "In the Appendix prefaces, what did the 1882 Russian Edition preface observe about peasant land ownership in Russia?",
+      "gold_page": 35,
+      "grounding_score": 2,
+      "grounding_reason": "Top-1 chứa đầy đủ trọn vẹn bằng chứng và đúng trang nguồn.",
+      "filter_required": {
+        "chapter": "Appendix"
+      },
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "question": "In the Appendix prefaces, what did the 1882 Russian Edition preface observe about peasant land ownership in Russia?",
+      "gold_page": 35,
+      "grounding_score": 2,
+      "grounding_reason": "Top-1 chứa đầy đủ trọn vẹn bằng chứng và đúng trang nguồn.",
+      "filter_required": {
+        "chapter": "Appendix"
+      },
+      "filter_compliant": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "question": "Who signed the preface to the 1883 German edition alone after Karl Marx passed away?",
+      "gold_page": 35,
+      "grounding_score": 2,
+      "grounding_reason": "Top-1 chứa đầy đủ trọn vẹn bằng chứng và đúng trang nguồn.",
+      "filter_required": null,
+      "filter_compliant": "N/A"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "question": "Who signed the preface to the 1883 German edition alone after Karl Marx passed away?",
+      "gold_page": 35,
+      "grounding_score": 2,
+      "grounding_reason": "Top-1 chứa đầy đủ trọn vẹn bằng chứng và đúng trang nguồn.",
+      "filter_required": null,
+      "filter_compliant": "N/A"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "question": "Who signed the preface to the 1883 German edition alone after Karl Marx passed away?",
+      "gold_page": 35,
+      "grounding_score": 2,
+      "grounding_reason": "Top-1 chứa đầy đủ trọn vẹn bằng chứng và đúng trang nguồn.",
+      "filter_required": null,
+      "filter_compliant": "N/A"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q21",
+      "question": "What single immediate aim was the proletariat reviewing fighting forces for on May Day in the 1890 Preface?",
+      "gold_page": 42,
+      "grounding_score": 2,
+      "grounding_reason": "Top-1 chứa đầy đủ trọn vẹn bằng chứng và đúng trang nguồn.",
+      "filter_required": null,
+      "filter_compliant": "N/A"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q21",
+      "question": "What single immediate aim was the proletariat reviewing fighting forces for on May Day in the 1890 Preface?",
+      "gold_page": 42,
+      "grounding_score": 2,
+      "grounding_reason": "Top-1 chứa đầy đủ trọn vẹn bằng chứng và đúng trang nguồn.",
+      "filter_required": null,
+      "filter_compliant": "N/A"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q21",
+      "question": "What single immediate aim was the proletariat reviewing fighting forces for on May Day in the 1890 Preface?",
+      "gold_page": 42,
+      "grounding_score": 2,
+      "grounding_reason": "Top-1 chứa đầy đủ trọn vẹn bằng chứng và đúng trang nguồn.",
+      "filter_required": null,
+      "filter_compliant": "N/A"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q22",
+      "question": "According to the 1893 Italian edition preface, what condition is necessary for the rule of the bourgeoisie in any country?",
+      "gold_page": 44,
+      "grounding_score": 1,
+      "grounding_reason": "Bằng chứng xuất hiện ở rank 2 hoặc 3, cần tổng hợp thêm ngữ cảnh.",
+      "filter_required": null,
+      "filter_compliant": "N/A"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q22",
+      "question": "According to the 1893 Italian edition preface, what condition is necessary for the rule of the bourgeoisie in any country?",
+      "gold_page": 44,
+      "grounding_score": 0,
+      "grounding_reason": "Top-3 không chứa đoạn bằng chứng cần thiết để trả lời câu hỏi.",
+      "filter_required": null,
+      "filter_compliant": "N/A"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q22",
+      "question": "According to the 1893 Italian edition preface, what condition is necessary for the rule of the bourgeoisie in any country?",
+      "gold_page": 44,
+      "grounding_score": 0,
+      "grounding_reason": "Top-3 không chứa đoạn bằng chứng cần thiết để trả lời câu hỏi.",
+      "filter_required": null,
+      "filter_compliant": "N/A"
+    }
+  ]
+}

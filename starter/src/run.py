@@ -186,6 +186,9 @@ def main() -> None:
     benchmark_path = ROOT_DIR / "benchmark" / "questions.json"
     results_dir = STARTER_DIR / "results"
     results_dir.mkdir(exist_ok=True)
+    root_results_dir = ROOT_DIR / "results"
+    root_results_dir.mkdir(exist_ok=True)
+    out_dirs = [results_dir, root_results_dir]
 
     if not pdf_path.exists():
         log.error("Không tìm thấy PDF tại: %s", pdf_path)
@@ -260,10 +263,10 @@ def main() -> None:
         metrics_summary[strat] = summarize(traces)
 
         # Lưu trace chi tiết
-        trace_file = results_dir / f"traces_{strat}.json"
-        with open(trace_file, "w", encoding="utf-8") as f:
-            json.dump(traces, f, ensure_ascii=False, indent=2)
-        log.info("    Đã lưu trace Strategy %s vào: %s", strat, trace_file.name)
+        for d in out_dirs:
+            with open(d / f"traces_{strat}.json", "w", encoding="utf-8") as f:
+                json.dump(traces, f, ensure_ascii=False, indent=2)
+        log.info("    Đã lưu trace Strategy %s vào: traces_%s.json", strat, strat)
 
     t_bench = time.perf_counter() - t_start_bench
     log.info("--> Toàn bộ benchmark hoàn thành trong %.2f giây.", t_bench)
@@ -303,19 +306,19 @@ def main() -> None:
         "benchmark_time_seconds": round(t_bench, 2),
     }
 
-    metrics_file = results_dir / "metrics.json"
-    with open(metrics_file, "w", encoding="utf-8") as f:
-        json.dump(full_metrics, f, ensure_ascii=False, indent=2)
-    log.info("--> Đã lưu chỉ số tổng hợp vào: %s", metrics_file.name)
+    for d in out_dirs:
+        with open(d / "metrics.json", "w", encoding="utf-8") as f:
+            json.dump(full_metrics, f, ensure_ascii=False, indent=2)
+    log.info("--> Đã lưu chỉ số tổng hợp vào: metrics.json")
 
-    # Lưu audit log chi tiết ra JSON và CSV
-    audit_file = results_dir / "audit_manual.json"
-    with open(audit_file, "w", encoding="utf-8") as f:
-        json.dump({
-            "coherence_audit": coherence_rows,
-            "metadata_audit": meta_grounding["metadata_records"],
-            "grounding_audit": meta_grounding["grounding_records"],
-        }, f, ensure_ascii=False, indent=2)
+    # Lưu audit log chi tiết ra JSON
+    for d in out_dirs:
+        with open(d / "audit_manual.json", "w", encoding="utf-8") as f:
+            json.dump({
+                "coherence_audit": coherence_rows,
+                "metadata_audit": meta_grounding["metadata_records"],
+                "grounding_audit": meta_grounding["grounding_records"],
+            }, f, ensure_ascii=False, indent=2)
 
     # Cập nhật kết quả vào artifacts/experiment_log.csv
     exp_log_path = ROOT_DIR / "artifacts" / "experiment_log.csv"

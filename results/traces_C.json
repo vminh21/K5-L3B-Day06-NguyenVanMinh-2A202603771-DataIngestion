@@ -1,0 +1,1654 @@
+[
+  {
+    "question_id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "What does the opening sentence of the Manifesto declare is haunting Europe?",
+    "expected_answer": "A spectre — the spectre of communism.",
+    "gold_page": 2,
+    "evidence_quote": "A spectre is haunting Europe — the spectre of communism.",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0002_C_0000_0e0044",
+        "page": 2,
+        "score": 0.6271,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "A spectre is haunting Europe — the spectre of communism. All the powers of old Europe\nhave entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich and Guizot,\nFrench Radicals ...",
+        "metadata": {
+          "chapter": "Preamble",
+          "section": "Preamble",
+          "strategy": "C",
+          "char_count": 1050,
+          "chunk_index": 0,
+          "raw_char_count": 1228,
+          "chunk_char_count": 850,
+          "raw_chapter_file": "01_Preamble.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0034_C_0003_7bfb2b",
+        "page": 34,
+        "score": 0.4944,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "And now Russia! During the Revolution of 1848-9, not only the European princes, but the\nEuropean bourgeois as well, found their only salvation from the proletariat just beginning to\nawaken in Russian ...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1882 Russian Edition",
+          "strategy": "C",
+          "char_count": 2572,
+          "chunk_index": 3,
+          "raw_char_count": 2734,
+          "chunk_char_count": 396,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0041_C_0004_95ba1f",
+        "page": 41,
+        "score": 0.485,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "\"Working men of all countries, unite!\" But few voices responded when we proclaimed these\nwords to the world 42 years ago, on the eve of the first Paris Revolution in which the proletariat\ncame out wit...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1890 German Edition",
+          "strategy": "C",
+          "char_count": 3554,
+          "chunk_index": 4,
+          "raw_char_count": 3711,
+          "chunk_char_count": 567,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "According to Chapter I, what is the history of all hitherto existing society?",
+    "expected_answer": "The history of all hitherto existing society is the history of class struggles.",
+    "gold_page": 3,
+    "evidence_quote": "The history of all hitherto existing society2 is the history of class struggles.",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0038_C_0003_14816e",
+        "page": 38,
+        "score": 0.4199,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "That proposition is: That in\nevery historical epoch, the prevailing mode of economic production and exchange, and the social\norganization necessarily following from it, form the basis upon which it is...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1888 English Edition",
+          "strategy": "C",
+          "char_count": 3304,
+          "chunk_index": 3,
+          "raw_char_count": 3463,
+          "chunk_char_count": 986,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0019_C_0002_e4c9b8",
+        "page": 19,
+        "score": 0.4181,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "“There are, besides, eternal truths, such as Freedom, Justice, etc., that are common to all\nstates of society. But Communism abolishes eternal truths, it abolishes all religion, and all\nmorality, inst...",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Chapter II",
+          "strategy": "C",
+          "char_count": 2435,
+          "chunk_index": 2,
+          "raw_char_count": 2626,
+          "chunk_char_count": 785,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0003_C_0000_3bcc77",
+        "page": 3,
+        "score": 0.4144,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "Bourgeois and Proletarians1\n\nThe history of all hitherto existing society2 is the history of class struggles.\n\nFreeman and slave, patrician and plebeian, lord and serf, guild-master3 and journeyman, i...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Bourgeois and Proletarians",
+          "strategy": "C",
+          "char_count": 3311,
+          "chunk_index": 0,
+          "raw_char_count": 3532,
+          "chunk_char_count": 850,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q03",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "In what ways does the bourgeoisie expand its market presence across the globe?",
+    "expected_answer": "The need of a constantly expanding market chases the bourgeoisie over the entire surface of the globe, compelling it to nestle, settle, and establish connections everywhere.",
+    "gold_page": 6,
+    "evidence_quote": "The need of a constantly expanding market for its products chases the bourgeoisie over the entire surface of the globe. It must nestle everywhere, settle everywhere, establish connexions everywhere.",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0006_C_0000_013d37",
+        "page": 6,
+        "score": 0.6109,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "The need of a constantly expanding market for its products chases the bourgeoisie over the\nentire surface of the globe. It must nestle everywhere, settle everywhere, establish connexions\neverywhere.",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 3067,
+          "chunk_index": 0,
+          "raw_char_count": 3229,
+          "chunk_char_count": 198,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0004_C_0001_a3aa60",
+        "page": 4,
+        "score": 0.5105,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Modern industry has established the world market, for which the discovery of America\npaved the way. This market has given an immense development to commerce, to navigation, to\ncommunication by land. T...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 3074,
+          "chunk_index": 1,
+          "raw_char_count": 3290,
+          "chunk_char_count": 666,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0004_C_0002_c51430",
+        "page": 4,
+        "score": 0.5042,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Each step in the development of the bourgeoisie was accompanied by a corresponding\npolitical advance of that class. An oppressed class under the sway of the feudal nobility, an\narmed and self-governin...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 3074,
+          "chunk_index": 2,
+          "raw_char_count": 3290,
+          "chunk_char_count": 860,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q04",
+    "split": "dev",
+    "type": "conditional",
+    "question": "How does the bourgeoisie overcome commercial economic crises?",
+    "expected_answer": "By enforced destruction of a mass of productive forces, by the conquest of new markets, and by the more thorough exploitation of old ones.",
+    "gold_page": 8,
+    "evidence_quote": "On the one hand by enforced destruction of a mass of productive forces; on the other, by the conquest of new markets, and by the more thorough exploitation of the old ones.",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0008_C_0000_5b9fc8",
+        "page": 8,
+        "score": 0.5653,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "does the bourgeoisie get over these crises? On the one hand by enforced destruction of a mass of\nproductive forces; on the other, by the conquest of new markets, and by the more thorough\nexploitation ...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 2806,
+          "chunk_index": 0,
+          "raw_char_count": 2973,
+          "chunk_char_count": 676,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0007_C_0002_820cd4",
+        "page": 7,
+        "score": 0.5189,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "A similar movement is going on before our own eyes. Modern bourgeois society, with its\nrelations of production, of exchange and of property, a society that has conjured up such gigantic\nmeans of produ...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 3300,
+          "chunk_index": 2,
+          "raw_char_count": 3461,
+          "chunk_char_count": 932,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0012_C_0003_c7cb16",
+        "page": 12,
+        "score": 0.4846,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "The essential conditions for the existence and for the sway of the bourgeois class is the\nformation and augmentation of capital; the condition for capital is wage-labour. Wage-labour\nrests exclusively...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 2638,
+          "chunk_index": 3,
+          "raw_char_count": 2803,
+          "chunk_char_count": 725,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q05",
+    "split": "dev",
+    "type": "direct",
+    "question": "What organizations do workers initially form when resisting individual bourgeois employers?",
+    "expected_answer": "Combinations (Trades' Unions) against the bourgeois in order to keep up the rate of wages.",
+    "gold_page": 10,
+    "evidence_quote": "Thereupon, the workers begin to form combinations (Trades’ Unions) against the bourgeois; they club together in order to keep up the rate of wages",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0010_C_0000_39dcf2",
+        "page": 10,
+        "score": 0.478,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "fluctuating. The increasing improvement of machinery, ever more rapidly developing, makes\ntheir livelihood more and more precarious; the collisions between individual workmen and\nindividual bourgeois ...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 3176,
+          "chunk_index": 0,
+          "raw_char_count": 3340,
+          "chunk_char_count": 568,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0009_C_0002_3f6a7b",
+        "page": 9,
+        "score": 0.4695,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "The proletariat goes through various stages of development. With its birth begins its struggle\nwith the bourgeoisie. At first the contest is carried on by individual labourers, then by the\nworkpeople ...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 3138,
+          "chunk_index": 2,
+          "raw_char_count": 3304,
+          "chunk_char_count": 663,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0043_C_0004_8486d9",
+        "page": 43,
+        "score": 0.4458,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Everywhere that revolution was the work of the working class; it was the latter that built the\nbarricades and paid with its lifeblood. Only the Paris workers, in overthrowing the government,\nhad the v...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1893 Italian Edition",
+          "strategy": "C",
+          "char_count": 3009,
+          "chunk_index": 4,
+          "chunk_char_count": 572
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q06",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Which group of intellectuals joins the proletariat when the class struggle nears the decisive hour?",
+    "expected_answer": "A portion of bourgeois ideologists who have comprehended theoretically the historical movement as a whole.",
+    "gold_page": 11,
+    "evidence_quote": "in particular, a portion of the bourgeois ideologists, who have raised themselves to the level of comprehending theoretically the historical movement as a whole.",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0011_C_0000_0541b3",
+        "page": 11,
+        "score": 0.5214,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "period, a section of the nobility went over to the bourgeoisie, so now a portion of the bourgeoisie\ngoes over to the proletariat, and in particular, a portion of the bourgeois ideologists, who have\nra...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 2816,
+          "chunk_index": 0,
+          "raw_char_count": 2982,
+          "chunk_char_count": 554,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0010_C_0004_320185",
+        "page": 10,
+        "score": 0.5146,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Further, as we have already seen, entire sections of the ruling class are, by the advance of\nindustry, precipitated into the proletariat, or are at least threatened in their conditions of\nexistence. T...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 3176,
+          "chunk_index": 4,
+          "raw_char_count": 3340,
+          "chunk_char_count": 679,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0009_C_0001_34dc03",
+        "page": 9,
+        "score": 0.4931,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "The lower strata of the middle class — the small tradespeople, shopkeepers, and retired\ntradesmen generally, the handicraftsmen and peasants — all these sink gradually into the\nproletariat, partly bec...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 3138,
+          "chunk_index": 1,
+          "raw_char_count": 3304,
+          "chunk_char_count": 523,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q07",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter I, what has been the historical role played by the bourgeoisie regarding feudal ties?",
+    "expected_answer": "The bourgeoisie has historically played a most revolutionary part and put an end to all feudal, patriarchal, idyllic relations.",
+    "gold_page": 5,
+    "evidence_quote": "The bourgeoisie, historically, has played a most revolutionary part. The bourgeoisie, wherever it has got the upper hand, has put an end to all feudal, patriarchal, idyllic relations.",
+    "filter": {
+      "chapter": "Chapter I"
+    },
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0005_C_0000_7cfb90",
+        "page": 5,
+        "score": 0.5535,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "The bourgeoisie, historically, has played a most revolutionary part.\n\nThe bourgeoisie, wherever it has got the upper hand, has put an end to all feudal, patriarchal,\nidyllic relations. It has pitiless...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 2590,
+          "chunk_index": 0,
+          "raw_char_count": 2756,
+          "chunk_char_count": 880,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0004_C_0002_c51430",
+        "page": 4,
+        "score": 0.5347,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Each step in the development of the bourgeoisie was accompanied by a corresponding\npolitical advance of that class. An oppressed class under the sway of the feudal nobility, an\narmed and self-governin...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 3074,
+          "chunk_index": 2,
+          "raw_char_count": 3290,
+          "chunk_char_count": 860,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0003_C_0001_874c5c",
+        "page": 3,
+        "score": 0.5166,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "The modern bourgeois society that has sprouted from the ruins of feudal society has not\ndone away with class antagonisms. It has but established new classes, new conditions of\noppression, new forms of...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Bourgeois and Proletarians",
+          "strategy": "C",
+          "char_count": 3311,
+          "chunk_index": 1,
+          "raw_char_count": 3532,
+          "chunk_char_count": 680,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "Do Communists form a separate party opposed to other working-class parties?",
+    "expected_answer": "No, Communists do not form a separate party opposed to other working-class parties and have no interests separate from the proletariat as a whole.",
+    "gold_page": 13,
+    "evidence_quote": "The Communists do not form a separate party opposed to the other working-class parties. They have no interests separate and apart from those of the proletariat as a whole.",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0013_C_0000_4ef743",
+        "page": 13,
+        "score": 0.6343,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "Proletarians and Communists\n\nIn what relation do the Communists stand to the proletarians as a whole? The Communists\ndo not form a separate party opposed to the other working-class parties.\n\nThey have...",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Proletarians and Communists",
+          "strategy": "C",
+          "char_count": 2079,
+          "chunk_index": 0,
+          "raw_char_count": 2272,
+          "chunk_char_count": 877,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0031_C_0000_ba66e7",
+        "page": 31,
+        "score": 0.5752,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Position of the Communists in Relation to the Various\nExisting Opposition Parties\n\nSection II has made clear the relations of the Communists to the existing working-class\nparties, such as the Chartist...",
+        "metadata": {
+          "chapter": "Chapter IV",
+          "section": "Position of the Communists in Relation to Opposition Parties",
+          "strategy": "C",
+          "char_count": 2593,
+          "chunk_index": 0,
+          "raw_char_count": 2795,
+          "chunk_char_count": 954,
+          "raw_chapter_file": "05_Chapter_IV_Position_of_the_Communists.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0010_C_0002_d10129",
+        "page": 10,
+        "score": 0.5277,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "This organisation of the proletarians into a class, and, consequently into a political party, is\ncontinually being upset again by the competition between the workers themselves. But it ever\nrises up a...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 3176,
+          "chunk_index": 2,
+          "raw_char_count": 3340,
+          "chunk_char_count": 426,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q09",
+    "split": "dev",
+    "type": "conditional",
+    "question": "What is the distinguishing feature of Communism regarding property abolition?",
+    "expected_answer": "Not the abolition of property generally, but the abolition of bourgeois private property.",
+    "gold_page": 14,
+    "evidence_quote": "The distinguishing feature of Communism is not the abolition of property generally, but the abolition of bourgeois property.",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0014_C_0000_cb1042",
+        "page": 14,
+        "score": 0.7409,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "The French Revolution, for example, abolished feudal property in favour of bourgeois\nproperty.\n\nThe distinguishing feature of Communism is not the abolition of property generally, but\nthe abolition of...",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Chapter II",
+          "strategy": "C",
+          "char_count": 2191,
+          "chunk_index": 0,
+          "raw_char_count": 2391,
+          "chunk_char_count": 796,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0013_C_0002_478ed0",
+        "page": 13,
+        "score": 0.6713,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "They merely express, in general terms, actual relations springing from an existing class\nstruggle, from a historical movement going on under our very eyes. The abolition of existing\nproperty relations...",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Proletarians and Communists",
+          "strategy": "C",
+          "char_count": 2079,
+          "chunk_index": 2,
+          "raw_char_count": 2272,
+          "chunk_char_count": 390,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0016_C_0000_dbdcf6",
+        "page": 16,
+        "score": 0.5982,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "In one word, you reproach us with intending to do away with your property. Precisely so;\nthat is just what we intend.\n\nFrom the moment when labour can no longer be converted into capital, money, or re...",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Chapter II",
+          "strategy": "C",
+          "char_count": 2320,
+          "chunk_index": 0,
+          "raw_char_count": 2511,
+          "chunk_char_count": 952,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q10",
+    "split": "dev",
+    "type": "direct",
+    "question": "How does the bourgeois traditionally view his wife according to the Manifesto?",
+    "expected_answer": "The bourgeois sees his wife as a mere instrument of production.",
+    "gold_page": 18,
+    "evidence_quote": "The bourgeois sees his wife a mere instrument of production.",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0018_C_0000_e581c3",
+        "page": 18,
+        "score": 0.6963,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "The bourgeois sees his wife a mere instrument of production. He hears that the instruments\nof production are to be exploited in common, and, naturally, can come to no other conclusion\nthat the lot of ...",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Chapter II",
+          "strategy": "C",
+          "char_count": 2444,
+          "chunk_index": 0,
+          "raw_char_count": 2639,
+          "chunk_char_count": 883,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0018_C_0001_386a73",
+        "page": 18,
+        "score": 0.63,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Bourgeois marriage is, in reality, a system of wives in common and thus, at the most, what\nthe Communists might possibly be reproached with is that they desire to introduce, in\nsubstitution for a hypo...",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Chapter II",
+          "strategy": "C",
+          "char_count": 2444,
+          "chunk_index": 1,
+          "raw_char_count": 2639,
+          "chunk_char_count": 888,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0017_C_0002_35c545",
+        "page": 17,
+        "score": 0.6048,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "The bourgeois clap-trap about the family and education, about the hallowed co-relation of\nparents and child, becomes all the more disgusting, the more, by the action of Modern Industry,\nall the family...",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Chapter II",
+          "strategy": "C",
+          "char_count": 2136,
+          "chunk_index": 2,
+          "raw_char_count": 2326,
+          "chunk_char_count": 428,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q11",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter II, what is the first measure listed as generally applicable in the most advanced countries?",
+    "expected_answer": "Abolition of property in land and application of all rents of land to public purposes.",
+    "gold_page": 21,
+    "evidence_quote": "1. Abolition of property in land and application of all rents of land to public purposes.",
+    "filter": {
+      "chapter": "Chapter II"
+    },
+    "strategy": "C",
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0021_C_0000_fa0565",
+        "page": 21,
+        "score": 0.4659,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Nevertheless, in most advanced countries, the following will be pretty generally\napplicable:",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Chapter II",
+          "strategy": "C",
+          "char_count": 2212,
+          "chunk_index": 0,
+          "raw_char_count": 2416,
+          "chunk_char_count": 92,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0020_C_0001_5b6463",
+        "page": 20,
+        "score": 0.3405,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Of course, in the beginning, this cannot be effected except by means of despotic inroads on\nthe rights of property, and on the conditions of bourgeois production; by means of measures,\ntherefore, whic...",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Chapter II",
+          "strategy": "C",
+          "char_count": 1344,
+          "chunk_index": 1,
+          "raw_char_count": 1540,
+          "chunk_char_count": 520,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0018_C_0002_8d3ce3",
+        "page": 18,
+        "score": 0.2594,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "National differences and antagonism between peoples are daily more and more vanishing,\nowing to the development of the bourgeoisie, to freedom of commerce, to the world market, to\nuniformity in the mo...",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Chapter II",
+          "strategy": "C",
+          "char_count": 2444,
+          "chunk_index": 2,
+          "raw_char_count": 2639,
+          "chunk_char_count": 669,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q12",
+    "split": "dev",
+    "type": "conditional",
+    "question": "What are the second and third measures proposed for advanced countries in Chapter II?",
+    "expected_answer": "A heavy progressive or graduated income tax, and abolition of all rights of inheritance.",
+    "gold_page": 21,
+    "evidence_quote": "2. A heavy progressive or graduated income tax. 3. Abolition of all rights of inheritance.",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0021_C_0000_fa0565",
+        "page": 21,
+        "score": 0.35,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Nevertheless, in most advanced countries, the following will be pretty generally\napplicable:",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Chapter II",
+          "strategy": "C",
+          "char_count": 2212,
+          "chunk_index": 0,
+          "raw_char_count": 2416,
+          "chunk_char_count": 92,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0039_C_0000_9479b1",
+        "page": 39,
+        "score": 0.3481,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "at all times, on the historical conditions for the time being existing, and, for that reason, no special stress is laid\non the revolutionary measures proposed at the end of Section II. That passage wo...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1890 German Edition",
+          "strategy": "C",
+          "char_count": 2668,
+          "chunk_index": 0,
+          "raw_char_count": 2832,
+          "chunk_char_count": 658,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0027_C_0002_2e29e8",
+        "page": 27,
+        "score": 0.3212,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "A second, and more practical, but less systematic, form of this Socialism sought to depreciate\nevery revolutionary movement in the eyes of the working class by showing that no mere political\nreform, b...",
+        "metadata": {
+          "chapter": "Chapter III",
+          "section": "2. Conservative or Bourgeois Socialism",
+          "strategy": "C",
+          "char_count": 2674,
+          "chunk_index": 2,
+          "raw_char_count": 2878,
+          "chunk_char_count": 801,
+          "raw_chapter_file": "04_Chapter_III_Socialist_and_Communist_Literature.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q13",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the phrase that sums up the essence of Conservative or Bourgeois Socialism?",
+    "expected_answer": "The bourgeois is a bourgeois — for the benefit of the working class.",
+    "gold_page": 28,
+    "evidence_quote": "It is summed up in the phrase: the bourgeois is a bourgeois — for the benefit of the working class.",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0028_C_0000_9353f3",
+        "page": 28,
+        "score": 0.5511,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "Free trade: for the benefit of the working class. Protective duties: for the benefit of the\nworking class. Prison Reform: for the benefit of the working class. This is the last word and the\nonly serio...",
+        "metadata": {
+          "chapter": "Chapter III",
+          "section": "2. Conservative or Bourgeois Socialism",
+          "strategy": "C",
+          "char_count": 2389,
+          "chunk_index": 0,
+          "raw_char_count": 2545,
+          "chunk_char_count": 568,
+          "raw_chapter_file": "04_Chapter_III_Socialist_and_Communist_Literature.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0027_C_0001_3da20e",
+        "page": 27,
+        "score": 0.5428,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "The Socialistic bourgeois want all the advantages of modern social conditions without the\nstruggles and dangers necessarily resulting therefrom. They desire the existing state of society,\nminus its re...",
+        "metadata": {
+          "chapter": "Chapter III",
+          "section": "2. Conservative or Bourgeois Socialism",
+          "strategy": "C",
+          "char_count": 2674,
+          "chunk_index": 1,
+          "raw_char_count": 2878,
+          "chunk_char_count": 775,
+          "raw_chapter_file": "04_Chapter_III_Socialist_and_Communist_Literature.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0027_C_0000_50c1c3",
+        "page": 27,
+        "score": 0.5192,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Socialist and Communist publications that now (1847) circulate in Germany belong to the\ndomain of this foul and enervating literature.7\n\n2. Conservative or Bourgeois Socialism\n\nA part of the bourgeois...",
+        "metadata": {
+          "chapter": "Chapter III",
+          "section": "2. Conservative or Bourgeois Socialism",
+          "strategy": "C",
+          "char_count": 2674,
+          "chunk_index": 0,
+          "raw_char_count": 2878,
+          "chunk_char_count": 741,
+          "raw_chapter_file": "04_Chapter_III_Socialist_and_Communist_Literature.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q14",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter III under socialist literature, what social experiments did the Utopian socialists dream of founding?",
+    "expected_answer": "Isolated phalansteres, Home Colonies, or setting up a Little Icaria.",
+    "gold_page": 30,
+    "evidence_quote": "They still dream of experimental realisation of their social Utopias, of founding isolated “phalansteres”, of establishing “Home Colonies”, or setting up a “Little Icaria”8",
+    "filter": {
+      "chapter": "Chapter III"
+    },
+    "strategy": "C",
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0029_C_0002_cd914b",
+        "page": 29,
+        "score": 0.4608,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "But these Socialist and Communist publications contain also a critical element. They attack\nevery principle of existing society. Hence, they are full of the most valuable materials for the\nenlightenme...",
+        "metadata": {
+          "chapter": "Chapter III",
+          "section": "3. Critical-Utopian Socialism and Communism",
+          "strategy": "C",
+          "char_count": 2932,
+          "chunk_index": 2,
+          "raw_char_count": 3087,
+          "chunk_char_count": 860,
+          "raw_chapter_file": "04_Chapter_III_Socialist_and_Communist_Literature.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0030_C_0000_d20175",
+        "page": 30,
+        "score": 0.4352,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "deaden the class struggle and to reconcile the class antagonisms. They still dream of\nexperimental realisation of their social Utopias, of founding isolated “phalansteres”, of\nestablishing “Home Colon...",
+        "metadata": {
+          "chapter": "Chapter III",
+          "section": "3. Critical-Utopian Socialism and Communism",
+          "strategy": "C",
+          "char_count": 1422,
+          "chunk_index": 0,
+          "raw_char_count": 1609,
+          "chunk_char_count": 949,
+          "raw_chapter_file": "04_Chapter_III_Socialist_and_Communist_Literature.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0028_C_0000_9353f3",
+        "page": 28,
+        "score": 0.4221,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Free trade: for the benefit of the working class. Protective duties: for the benefit of the\nworking class. Prison Reform: for the benefit of the working class. This is the last word and the\nonly serio...",
+        "metadata": {
+          "chapter": "Chapter III",
+          "section": "2. Conservative or Bourgeois Socialism",
+          "strategy": "C",
+          "char_count": 2389,
+          "chunk_index": 0,
+          "raw_char_count": 2545,
+          "chunk_char_count": 568,
+          "raw_chapter_file": "04_Chapter_III_Socialist_and_Communist_Literature.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q15",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What leading question do Communists bring to the front in every revolutionary movement?",
+    "expected_answer": "The property question, no matter what its degree of development at the time.",
+    "gold_page": 32,
+    "evidence_quote": "In all these movements, they bring to the front, as the leading question in each, the property question, no matter what its degree of development at the time.",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0032_C_0000_9a4248",
+        "page": 32,
+        "score": 0.6,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "In short, the Communists everywhere support every revolutionary movement against the\nexisting social and political order of things.\n\nIn all these movements, they bring to the front, as the leading que...",
+        "metadata": {
+          "chapter": "Chapter IV",
+          "section": "Position of the Communists in Relation to Opposition Parties",
+          "strategy": "C",
+          "char_count": 757,
+          "chunk_index": 0,
+          "raw_char_count": 893,
+          "chunk_char_count": 751,
+          "raw_chapter_file": "05_Chapter_IV_Position_of_the_Communists.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0035_C_0000_22a4ca",
+        "page": 35,
+        "score": 0.545,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "The Communist Manifesto had, as its object, the proclamation of the inevitable impending\ndissolution of modern bourgeois property. But in Russia we find, face-to-face with the rapidly\nflowering capita...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1883 German Edition",
+          "strategy": "C",
+          "char_count": 2877,
+          "chunk_index": 0,
+          "raw_char_count": 3086,
+          "chunk_char_count": 978,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0013_C_0001_991708",
+        "page": 13,
+        "score": 0.5409,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "The Communists, therefore, are on the one hand, practically, the most advanced and\nresolute section of the working-class parties of every country, that section which pushes forward\nall others; on the ...",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Proletarians and Communists",
+          "strategy": "C",
+          "char_count": 2079,
+          "chunk_index": 1,
+          "raw_char_count": 2272,
+          "chunk_char_count": 807,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q16",
+    "split": "dev",
+    "type": "direct",
+    "question": "What famous concluding slogan ends Chapter IV of the Manifesto?",
+    "expected_answer": "Working Men of All Countries, Unite!",
+    "gold_page": 32,
+    "evidence_quote": "WORKING MEN OF ALL COUNTRIES, UNITE!",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0044_C_0002_21ef85",
+        "page": 44,
+        "score": 0.4859,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "The battles fought in 1848 were thus not fought in vain. Nor have the forty-five years\nseparating us from that revolutionary epoch passed to no purpose. The fruits are ripening, and all\nI wish is that...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1893 Italian Edition",
+          "strategy": "C",
+          "char_count": 2185,
+          "chunk_index": 2,
+          "raw_char_count": 2337,
+          "chunk_char_count": 913,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0044_C_0001_60eb3f",
+        "page": 44,
+        "score": 0.4826,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Thus, if the Revolution of 1848 was not a socialist revolution, it paved the way, prepared the\nground for the latter. Through the impetus given to large-scaled industry in all countries, the\nbourgeois...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1893 Italian Edition",
+          "strategy": "C",
+          "char_count": 2185,
+          "chunk_index": 1,
+          "raw_char_count": 2337,
+          "chunk_char_count": 756,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0018_C_0002_8d3ce3",
+        "page": 18,
+        "score": 0.4812,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "National differences and antagonism between peoples are daily more and more vanishing,\nowing to the development of the bourgeoisie, to freedom of commerce, to the world market, to\nuniformity in the mo...",
+        "metadata": {
+          "chapter": "Chapter II",
+          "section": "Chapter II",
+          "strategy": "C",
+          "char_count": 2444,
+          "chunk_index": 2,
+          "raw_char_count": 2639,
+          "chunk_char_count": 669,
+          "raw_chapter_file": "03_Chapter_II_Proletarians_and_Communists.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q17",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Who commissioned Marx and Engels in London to draw up the Manifesto in November 1847?",
+    "expected_answer": "The Communist League, an international association of workers.",
+    "gold_page": 33,
+    "evidence_quote": "The Communist League, an international association of workers, which could of course be only a secret one, under conditions obtaining at the time, commissioned us, the undersigned, at the Congress held in London in November 1847",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0033_C_0001_195523",
+        "page": 33,
+        "score": 0.5663,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "The Communist League, an international association of workers, which could of course be\nonly a secret one, under conditions obtaining at the time, commissioned us, the undersigned, at\nthe Congress hel...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1872 German Edition",
+          "strategy": "C",
+          "char_count": 3086,
+          "chunk_index": 1,
+          "raw_char_count": 3244,
+          "chunk_char_count": 977,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0036_C_0000_c5e081",
+        "page": 36,
+        "score": 0.5283,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "I have already stated this many times; but precisely now is it necessary that it also stand in\nfront of the Manifesto itself.\n\nFredrick Engels\nJune 28, 1883, London\n\nThe 1888 English Edition\n\nThe Mani...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1888 English Edition",
+          "strategy": "C",
+          "char_count": 2653,
+          "chunk_index": 0,
+          "raw_char_count": 2811,
+          "chunk_char_count": 997,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0037_C_0001_386e3d",
+        "page": 37,
+        "score": 0.4873,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Marx, who drew up this programme to the satisfaction of all parties, entirely trusted to the\nintellectual development of the working class, which was sure to result from combined action\nand mutual dis...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1888 English Edition",
+          "strategy": "C",
+          "char_count": 3330,
+          "chunk_index": 1,
+          "raw_char_count": 3538,
+          "chunk_char_count": 655,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q18",
+    "split": "test",
+    "type": "direct",
+    "question": "Why did Marx and Engels decline to alter the Manifesto in the 1872 German Preface?",
+    "expected_answer": "Because the Manifesto had become an unalterable historical document.",
+    "gold_page": 34,
+    "evidence_quote": "the Manifesto has become a historical document which we have no longer any right to alter.",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0038_C_0005_6c73f0",
+        "page": 38,
+        "score": 0.5937,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "This proposition, which, in my opinion, is destined to do for history what Darwin's theory\nhas done for biology, we both of us, had been gradually approaching for some years before 1845.\nHow far I had...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1888 English Edition",
+          "strategy": "C",
+          "char_count": 3415,
+          "chunk_index": 5,
+          "chunk_char_count": 883
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0038_C_0004_7deffb",
+        "page": 38,
+        "score": 0.5483,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "This proposition, which, in my opinion, is destined to do for history what Darwin's theory\nhas done for biology, we both of us, had been gradually approaching for some years before 1845.\nHow far I had...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1888 English Edition",
+          "strategy": "C",
+          "char_count": 3304,
+          "chunk_index": 4,
+          "raw_char_count": 3463,
+          "chunk_char_count": 883,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0034_C_0000_39437e",
+        "page": 34,
+        "score": 0.5463,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "But then, the Manifesto has become a historical document which we have no longer any right\nto alter. A subsequent edition may perhaps appear with an introduction bridging the gap from\n1847 to the pres...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1882 Russian Edition",
+          "strategy": "C",
+          "char_count": 2572,
+          "chunk_index": 0,
+          "raw_char_count": 2734,
+          "chunk_char_count": 649,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In the Appendix prefaces, what did the 1882 Russian Edition preface observe about peasant land ownership in Russia?",
+    "expected_answer": "More than half of the land was owned in common by the peasants.",
+    "gold_page": 35,
+    "evidence_quote": "in Russia we find, face-to-face with the rapidly flowering capitalist swindle and bourgeois property, just beginning to develop, more than half the land owned in common by the peasants.",
+    "filter": {
+      "chapter": "Appendix"
+    },
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0035_C_0000_22a4ca",
+        "page": 35,
+        "score": 0.4639,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "The Communist Manifesto had, as its object, the proclamation of the inevitable impending\ndissolution of modern bourgeois property. But in Russia we find, face-to-face with the rapidly\nflowering capita...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1883 German Edition",
+          "strategy": "C",
+          "char_count": 2877,
+          "chunk_index": 0,
+          "raw_char_count": 3086,
+          "chunk_char_count": 978,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0034_C_0000_39437e",
+        "page": 34,
+        "score": 0.4133,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "But then, the Manifesto has become a historical document which we have no longer any right\nto alter. A subsequent edition may perhaps appear with an introduction bridging the gap from\n1847 to the pres...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1882 Russian Edition",
+          "strategy": "C",
+          "char_count": 2572,
+          "chunk_index": 0,
+          "raw_char_count": 2734,
+          "chunk_char_count": 649,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0033_C_0000_144090",
+        "page": 33,
+        "score": 0.3819,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Appendix: Prefaces to various Language Editions\n\nThe 1872 German Edition",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1872 German Edition",
+          "strategy": "C",
+          "char_count": 3086,
+          "chunk_index": 0,
+          "raw_char_count": 3244,
+          "chunk_char_count": 72,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q20",
+    "split": "test",
+    "type": "conditional",
+    "question": "Who signed the preface to the 1883 German edition alone after Karl Marx passed away?",
+    "expected_answer": "Frederick Engels signed it alone.",
+    "gold_page": 35,
+    "evidence_quote": "The preface to the present edition I must, alas, sign alone. Marx, the man to whom the whole working class class of Europe and America owes more than to any one else",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0035_C_0001_c1a1a1",
+        "page": 35,
+        "score": 0.6872,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "The 1883 German Edition\n\nThe preface to the present edition I must, alas, sign alone. Marx, the man to whom the whole\nworking class class of Europe and America owes more than to any one else -- rests ...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1883 German Edition",
+          "strategy": "C",
+          "char_count": 2877,
+          "chunk_index": 1,
+          "raw_char_count": 3086,
+          "chunk_char_count": 465,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0038_C_0005_6c73f0",
+        "page": 38,
+        "score": 0.4565,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "This proposition, which, in my opinion, is destined to do for history what Darwin's theory\nhas done for biology, we both of us, had been gradually approaching for some years before 1845.\nHow far I had...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1888 English Edition",
+          "strategy": "C",
+          "char_count": 3415,
+          "chunk_index": 5,
+          "chunk_char_count": 883
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0039_C_0002_704497",
+        "page": 39,
+        "score": 0.4245,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "\"But then, the Manifesto has become a historical document which we have no longer any right to alter.\"\n\nThe present translation is by Mr Samuel Moore, the translator of the greater portion of\nMarx's C...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1890 German Edition",
+          "strategy": "C",
+          "char_count": 2668,
+          "chunk_index": 2,
+          "raw_char_count": 2832,
+          "chunk_char_count": 996,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q21",
+    "split": "test",
+    "type": "direct",
+    "question": "What single immediate aim was the proletariat reviewing fighting forces for on May Day in the 1890 Preface?",
+    "expected_answer": "The standard eight-hour working day established by legal enactment.",
+    "gold_page": 42,
+    "evidence_quote": "under one flag, for one immediate aim: the standard eight-hour working day to be established by legal enactment, as proclaimed by the Geneva Congress of the International in 1866",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0042_C_0000_2fc44e",
+        "page": 42,
+        "score": 0.5266,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "ever, there is no better witness than this day. Because today, as I write these lines, the European\nand American proletariat is reviewing its fighting forces, mobilized for the first time, mobilized\na...",
+        "metadata": {
+          "chapter": "Appendix",
+          "section": "The 1892 Polish Edition",
+          "strategy": "C",
+          "char_count": 2633,
+          "chunk_index": 0,
+          "raw_char_count": 2793,
+          "chunk_char_count": 853,
+          "raw_chapter_file": "06_Appendix_Prefaces.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0011_C_0003_4f92db",
+        "page": 11,
+        "score": 0.4235,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "All the preceding classes that got the upper hand sought to fortify their already acquired\nstatus by subjecting society at large to their conditions of appropriation. The proletarians cannot\nbecome ma...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 2816,
+          "chunk_index": 3,
+          "raw_char_count": 2982,
+          "chunk_char_count": 793,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0012_C_0000_82709b",
+        "page": 12,
+        "score": 0.4215,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "our present society, cannot stir, cannot raise itself up, without the whole superincumbent strata of\nofficial society being sprung into the air.\n\nThough not in substance, yet in form, the struggle of ...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 2638,
+          "chunk_index": 0,
+          "raw_char_count": 2803,
+          "chunk_char_count": 694,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "q22",
+    "split": "test",
+    "type": "conditional",
+    "question": "According to the 1893 Italian edition preface, what condition is necessary for the rule of the bourgeoisie in any country?",
+    "expected_answer": "National independence.",
+    "gold_page": 44,
+    "evidence_quote": "But in any country the rule of the bourgeoisie is impossible without national independence Therefore, the Revolution of 1848 had to bring in its train the unity and autonomy of the nations",
+    "filter": null,
+    "strategy": "C",
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "communist-manifesto-1848_p0012_C_0003_c7cb16",
+        "page": 12,
+        "score": 0.4742,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "The essential conditions for the existence and for the sway of the bourgeois class is the\nformation and augmentation of capital; the condition for capital is wage-labour. Wage-labour\nrests exclusively...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 2638,
+          "chunk_index": 3,
+          "raw_char_count": 2803,
+          "chunk_char_count": 725,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "communist-manifesto-1848_p0004_C_0002_c51430",
+        "page": 4,
+        "score": 0.4714,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Each step in the development of the bourgeoisie was accompanied by a corresponding\npolitical advance of that class. An oppressed class under the sway of the feudal nobility, an\narmed and self-governin...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 3074,
+          "chunk_index": 2,
+          "raw_char_count": 3290,
+          "chunk_char_count": 860,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "communist-manifesto-1848_p0005_C_0002_9c7689",
+        "page": 5,
+        "score": 0.4529,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "The bourgeoisie cannot exist without constantly revolutionising the instruments of\nproduction, and thereby the relations of production, and with them the whole relations of society.\nConservation of th...",
+        "metadata": {
+          "chapter": "Chapter I",
+          "section": "Chapter I",
+          "strategy": "C",
+          "char_count": 2590,
+          "chunk_index": 2,
+          "raw_char_count": 2756,
+          "chunk_char_count": 881,
+          "raw_chapter_file": "02_Chapter_I_Bourgeois_and_Proletarians.txt"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "corpus": {
+    "file": "manifest.pdf",
+    "document_id": "communist-manifesto-1848",
+    "content_pages": 43,
+    "total_characters": 116221,
+    "load_time_seconds": 1.596
+  },
+  "strategy_A": {
+    "strategy": "Strategy A (Fixed-size)",
+    "total_chunks": 273,
+    "avg_chars": 467.6,
+    "min_chars": 53,
+    "max_chars": 500,
+    "total_chars": 127647,
+    "chunks_per_chapter": {
+      "Appendix": 84,
+      "Chapter I": 72,
+      "Chapter III": 56,
+      "Chapter II": 50,
+      "Chapter IV": 8,
+      "Preamble": 3
+    },
+    "chunk_time_seconds": 0.0
+  },
+  "strategy_B": {
+    "strategy": "Strategy B (Paragraph-aware)",
+    "total_chunks": 167,
+    "avg_chars": 694.4,
+    "min_chars": 63,
+    "max_chars": 996,
+    "total_chars": 115965,
+    "chunks_per_chapter": {
+      "Appendix": 57,
+      "Chapter I": 45,
+      "Chapter III": 31,
+      "Chapter II": 27,
+      "Chapter IV": 5,
+      "Preamble": 2
+    },
+    "chunk_time_seconds": 0.001
+  }
+}
