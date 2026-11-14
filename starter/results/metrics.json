@@ -1,0 +1,122 @@
+{
+  "summary": {
+    "A": {
+      "dev": {
+        "hit1": "13/17",
+        "hit1_count": 13,
+        "hit1_pct": 76.5,
+        "hit3": "15/17",
+        "hit3_count": 15,
+        "hit3_pct": 88.2,
+        "total_questions": 17
+      },
+      "test": {
+        "hit1": "3/5",
+        "hit1_count": 3,
+        "hit1_pct": 60.0,
+        "hit3": "5/5",
+        "hit3_count": 5,
+        "hit3_pct": 100.0,
+        "total_questions": 5
+      },
+      "overall": {
+        "hit1": "16/22",
+        "hit1_count": 16,
+        "hit1_pct": 72.7,
+        "hit3": "20/22",
+        "hit3_count": 20,
+        "hit3_pct": 90.9,
+        "total_questions": 22
+      }
+    },
+    "B": {
+      "dev": {
+        "hit1": "12/17",
+        "hit1_count": 12,
+        "hit1_pct": 70.6,
+        "hit3": "14/17",
+        "hit3_count": 14,
+        "hit3_pct": 82.4,
+        "total_questions": 17
+      },
+      "test": {
+        "hit1": "3/5",
+        "hit1_count": 3,
+        "hit1_pct": 60.0,
+        "hit3": "4/5",
+        "hit3_count": 4,
+        "hit3_pct": 80.0,
+        "total_questions": 5
+      },
+      "overall": {
+        "hit1": "15/22",
+        "hit1_count": 15,
+        "hit1_pct": 68.2,
+        "hit3": "18/22",
+        "hit3_count": 18,
+        "hit3_pct": 81.8,
+        "total_questions": 22
+      }
+    },
+    "C": {
+      "dev": {
+        "hit1": "12/17",
+        "hit1_count": 12,
+        "hit1_pct": 70.6,
+        "hit3": "14/17",
+        "hit3_count": 14,
+        "hit3_pct": 82.4,
+        "total_questions": 17
+      },
+      "test": {
+        "hit1": "3/5",
+        "hit1_count": 3,
+        "hit1_pct": 60.0,
+        "hit3": "4/5",
+        "hit3_count": 4,
+        "hit3_pct": 80.0,
+        "total_questions": 5
+      },
+      "overall": {
+        "hit1": "15/22",
+        "hit1_count": 15,
+        "hit1_pct": 68.2,
+        "hit3": "18/22",
+        "hit3_count": 18,
+        "hit3_pct": 81.8,
+        "total_questions": 22
+      }
+    }
+  },
+  "coherence": {
+    "strategy_A_avg": 0.8,
+    "strategy_B_avg": 2.0,
+    "sample_size": 10
+  },
+  "grounding": {
+    "scores_0_1_2": {
+      "A": {
+        "0": 0,
+        "1": 2,
+        "2": 3
+      },
+      "B": {
+        "0": 1,
+        "1": 1,
+        "2": 3
+      },
+      "C": {
+        "0": 1,
+        "1": 1,
+        "2": 3
+      }
+    },
+    "averages": {
+      "A": 1.6,
+      "B": 1.4,
+      "C": 1.4
+    },
+    "sample_size": 5
+  },
+  "benchmark_time_seconds": 2.56
+}
